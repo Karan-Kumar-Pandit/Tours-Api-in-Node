@@ -1,8 +1,7 @@
 {
-  "extends": ["airbnb", "prettierrc", "plugin:node/recommended"],
-  "plugins": ["prettierrc"],
+  "extends": ["airbnb", "plugin:node/recommended"],
   "rules": {
-    "prettierrc/prettierrc": "error",
+    "linebreak-style": ["error", "windows"],
     "spaced-comment": "off",
     "no-console": "warn",
     "consistent-return": "off",
